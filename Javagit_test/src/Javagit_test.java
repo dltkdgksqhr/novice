@@ -5,7 +5,7 @@ public class Javagit_test {
 
 		System.out.println("Hellow World2");
 		
-		
+		System.out.println("ø¨Ω¿¡ﬂ");
 		
 		
 
