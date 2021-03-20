@@ -264,34 +264,28 @@ public class hakwon_munje2_317 {
 		
 
 //		for문, 집에서 다시풀기 integer.toBinaryString암기
-
-		
-
-		for(int i=0; i< 3; i++) {
-
-		Scanner sc =new Scanner(System.in);
-	    System.out.println("값을 입력해주세요.");
-
-		int dec =sc.nextInt();
-
-		
-
-		String dec2 = Integer.toBinaryString(dec); //2진수
-
-		String oct = Integer.toOctalString(dec);  //8진수
-
-		String hex = Integer.toHexString(dec);   //16진수
-
-		
-
-		System.out.println(dec2); //56
-
-		System.out.println(oct);  //070
-
-		System.out.println(hex);  //0x38
-
-		}
-
+/*      1.변수 1, 변수 2,3,4만들기
+ *      2. 변수 2,3,4에는 각각 2진수 8진수 16진수 식을 적어준다.
+ *      3. 변수 2,3,4에 대한 출력식을 적는다.
+ *      4. Scanner식을 적고 변수 1은 값을 입력받는 식으로 변경한다.
+ *      5. for문을 작성하고 실행한다.
+ * 
+ * 		
+ */	
+//		Scanner sc = new Scanner(System.in);
+//		
+//		for(int i=0;i<3;i++) {
+//		int i1 = sc.nextInt();
+//		
+//		String a = Integer.toBinaryString(i1);
+//		String b = Integer.toOctalString(i1);
+//		String c = Integer.toHexString(i1);
+//		
+//		System.out.println(a);
+//		System.out.println(b);
+//		System.out.println(c);
+//		}
+//		
 		
 
 //		System.out.println("----------------위에는 for문이고, 아래는 while문 입니다.");

@@ -54,6 +54,13 @@ public class Javatest2_317 {
 	System.out.println("8진수 :" + i3);
 	System.out.println("16진수 :" + i4);
 	
+	int binaryToDecimal = Integer.parseInt(i2, 2);
+	int binaryToOctal = Integer.parseInt(i3, 8);
+	int binaryToHex = Integer.parseInt(i4, 16);
+	
+	System.out.println(binaryToDecimal);
+	System.out.println(binaryToOctal);
+	System.out.println(binaryToHex);
 	
 	
 	
