@@ -9,7 +9,7 @@ public class hakwon316_2 {
 //		3월 16일 모든 문제 다시풀어보기
 		
 //		문제1 while문으로 [설명: while문은 증감식 밑으로 초기값 위로]
-int count = 0, sum =0, su =3; // su틀림
+        int count = 0, sum =0, su =3; // su틀림
 
 
 	   while(su < 100) {
