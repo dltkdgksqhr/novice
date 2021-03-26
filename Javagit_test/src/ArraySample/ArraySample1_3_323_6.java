@@ -1,4 +1,4 @@
-package Array_322;
+package ArraySample;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.InputMismatchException;
@@ -1198,13 +1198,15 @@ System.out.println("---------------------총 정리 ----------------------------
 /*  깨달은것
 * 	1. 음수 양수 짝수 홀수 if문 조건 줄 때 배열 변수 사용해도된다.
 *   2. 건너뛰는 건 continue;
+*   
+*   =============================
+*   분석
+*   1. 반복할 횟수 식
+*   2. 타입[] 배열변수명 = new 타입[] 식
+*   3. for문
+*   4. for문 안에 값 입력식
+*   5. for문 바깥에 sort식 
 */
-
- 
-
- 
-
- 
 
  
 
@@ -1224,8 +1226,8 @@ elevatorsu[i] = sc.nextInt();
 }
 
 Arrays.sort(elevatorsu); // number 배열에 들어있는 데이터를 오름차순하라.
-String toQuery = Arrays.toString(elevatorsu);
-System.out.println(toQuery);
+String df = Arrays.toString(elevatorsu);
+System.out.println(df);
 
  
 
@@ -1236,13 +1238,13 @@ System.out.println(toQuery);
  
 
 //        3을 주면 3 -1 =2           2 > -1  대입후 1씩 감소 | 2 -1 =1  1>-1 true | 1-1=0 0>-1 true |0-1=-1 -1>-1 false
-
+/*
 for(int i = elevatorsu.length - 1; i > -1;i--) {
 	System.out.println(elevatorsu[i]+ " "); //k[4] = 89,k[3] = 78,k[2]=34 ,k[1] =12,k[0]=5
-
+*/
  
 
-}
+
 
  
 

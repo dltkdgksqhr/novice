@@ -1,4 +1,4 @@
-package Array_322;
+package ArraySample;
 import java.util.InputMismatchException;
 
 import java.util.Scanner;
@@ -564,53 +564,20 @@ System.out.println("---------------------구분선----------------");
  
 
 double SPring[] = new double[3];
-
- 
-
       SPring[0] = 90;
-
- 
-
       SPring[1] = 80;
-
- 
-
       SPring[2] = 70;
 
  
 
 System.out.println("Spring1 : " + SPring[0]);
-
- 
-
 System.out.println("Spring2 : " + SPring[1]);
-
- 
-
 System.out.println("Spring3 : " + SPring[2]);
-
- 
-
- 
-
- 
-
 System.out.println("간결하게 for문으로 작성 ");
-
- 
-
 for(int i =0;i< SPring.length; i++) {
-
- 
-
  System.out.println("점수" + (i+1) +":" + SPring[i]);
 
  
-
- 
-
- 
-
 }
 
  
@@ -625,52 +592,23 @@ System.out.println("---------------------구분선----------------");
 
 /*
 
- 
-
- 
-
- 
+  
 
  double SPring[]  = new double[3];
-
- 
-
  Scanner sc = new Scanner(System.in);
 
  
 
- 
-
- 
-
- 
-
- 
-
    for(int i =0;i< SPring.length; i++) {
-
- 
-
   System.out.println("값을 입력해주세요.");
-
- 
-
    SPring[i] = sc.nextDouble(); //JSP[] 배열의 데이터 저장
 
  
 
      }
 
- 
-
- 
-
- 
 
    for(int i =0;i< SPring.length; i++) {
-
- 
-
     System.out.println("SPring" + (i+1) +":" + SPring[i]);
 
  
@@ -716,57 +654,37 @@ double aver[] = new double[3];
 */
 
 /*
-
 //                3/23일 오후3시
-
 //      문제> 데이터 5개 입력 받아서 저장하고 출력하는 프로그램을 작성하세요.
-
 //           데이터는 정수형입니다 , 반복문 사용
-
 //           이 데이터중에서 홀수 데이터의 합계를 구하고, 짝수데이터의 합계를 구해서 출력합니다.
 
 	
 
      Scanner sc = new Scanner(System.in);
-
      System.out.println("반복할 횟수 입력해주세요.");
-
-     int j = sc.nextInt();
+    int j = sc.nextInt();
 
      
 
      int[] aptdong = new int[j];
-
      int[] apthosu = new int[j];
-
      String[] aptname = new String[j];
-
      int[] familynumber = new int[j];
-
      int[] elevatorsu = new int[j];
 
      
 
      for(int i =0; i<aptdong.length;i++) {
-
     	 System.out.println("동 수를 입력해주세요. ");
-
     	 aptdong[i] = sc.nextInt();
-
     	 System.out.println("호 수를 입력해주세요. ");
-
     	 apthosu[i] = sc.nextInt();
-
     	 System.out.println("아파트 이름을 입력해주세요. ");
-
     	 aptname[i] = sc.next();
-
     	 System.out.println("거주하는 가족 수 를 입력해주세요. ");
-
     	 familynumber[i] = sc.nextInt();
-
     	 System.out.println("엘리베이터 개수를 입력해주세요. ");
-
     	 elevatorsu[i] = sc.nextInt();
 
     	 if(i%2 ==0) {
@@ -814,70 +732,37 @@ double aver[] = new double[3];
 //                        3/23일 오후3시
 
 //문제> 데이터 5개 입력 받아서 저장하고 출력하는 프로그램을 작성하세요.
-
 //데이터는 정수형입니다 , 반복문 사용
-
 //이 데이터중에서 홀수 데이터의 합계를 구하고, 짝수데이터의 합계를 구해서 출력합니다.(연습하기)
-
 /*
 
 Scanner sc = new Scanner(System.in);
-
 System.out.println("반복할 횟수 입력해주세요.");
-
 int j = sc.nextInt();
 
  
-
- 
-
 int[] elevatorsu = new int[j];
-
- 
-
 int hol =0, jjack=0;
 
- 
-
 for(int i =0; i<elevatorsu.length;i++) {
-
- 
-
 System.out.println("엘리베이터 개수를 입력해주세요. ");
-
 elevatorsu[i] = sc.nextInt();
 
 }
 
  
 
- 
-
- 
-
 System.out.println("---------------------총 정리 ---------------------------------------------------");   
-
 System.out.println("엘레베이터갯수\t");   
 
  
-
- 
-
- 
-
 for(int i =0; i<elevatorsu.length;i++) {
 
 	if(elevatorsu[i]%2 == 0) {
-
-		
-
 		 jjack +=elevatorsu[i];
-
 }else {
-
 	     hol +=elevatorsu[i];
 
- 
 
 }
 
@@ -886,7 +771,6 @@ for(int i =0; i<elevatorsu.length;i++) {
 }
 
           System.out.println("홀수의 합: " +hol);
-
           System.out.println("짝수의 합: " +jjack);
 
 System.out.println("---------------------총 정리 ---------------------------------------------------");
@@ -902,13 +786,9 @@ System.out.println("---------------------총 정리 ----------------------------
 //              3/23일 오후3시
 
 //문제> 데이터 5개 입력 받아서 저장하고 출력하는 프로그램을 작성하세요.
-
 //데이터는 정수형입니다 , 반복문 사용
-
 //이 데이터중에서 음수 데이터는 skip을 하고, 양수데이터의 합계와 개수를 구해서 출력합니다.(연습하기)
-
 //
-
 /*  깨달은것
 
  * 	1. 음수 양수 짝수 홀수 if문 조건 줄 때 배열 변수 사용해도된다.
@@ -1013,11 +893,6 @@ System.out.println("---------------------총 정리 ----------------------------
 
  
 
- 
-
- 
-
- 
 
 Scanner sc = new Scanner(System.in);
 System.out.println("반복할 횟수 입력해주세요.");

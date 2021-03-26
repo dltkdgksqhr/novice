@@ -1,4 +1,4 @@
-package Array_322;
+package ArraySample;
 import java.util.Scanner;
 public class ArraySample1_practice_323 {
 
