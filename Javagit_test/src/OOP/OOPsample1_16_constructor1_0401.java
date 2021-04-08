@@ -2,11 +2,6 @@ package OOP;
 import java.util.Scanner;
 
 
-
-
-
-
-
 /*
 
  *  문제> 생성자 메소드 :클래스에서 전송한 데이터를 수신하기 위하여 사용합니다.
@@ -28,10 +23,9 @@ import java.util.Scanner;
  *  - 디폴트 생성자 : public class이름() {...............} 
 
  *  - 클래스에서 전달되는 값을 클래스 변수에 초기화 시킬 목적으로 주로 사용됩니다.
-
  *  
-
  */
+
 public class OOPsample1_16_constructor1_0401 {
 
 //    생성자 오버로딩
@@ -142,7 +136,7 @@ public class OOPsample1_16_constructor1_0401 {
 
 
 
-}
+        }
 
 
 

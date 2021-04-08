@@ -8,30 +8,19 @@ import java.util.Scanner;
  *  method()
 
  *  객체를 생성하여 메소드 호출
-
  *  반환값  전달인자
-
  *   X      X
-
  *   X      O
-
  *   O      X
-
  *   O      O
-
  *   
-
  *   1. 절차지향적(비객체지향) 코드 작성 후
-
  *   2. 객체지향적 코드 작성
-
  *   
-
  */
 public class OOPsample1_4_1_331 {
 
 	/*
-
 	private static int divi(int x, int y) {
 
 		
@@ -42,11 +31,11 @@ public class OOPsample1_4_1_331 {
 
 	}
 
-	*/
+	
 
 	
 
-	/*
+	
 
 	private int multi() {
 
@@ -66,11 +55,11 @@ public class OOPsample1_4_1_331 {
 
 	}
 
-	*/
+	
 
 	
 
-/*
+
 
 	private void Subtract(int x, int y) {
 
@@ -82,11 +71,6 @@ public class OOPsample1_4_1_331 {
 
 	}
 
-	*/
-
-	/*
-
-	
 
  
 
@@ -112,17 +96,17 @@ public class OOPsample1_4_1_331 {
 
 	}
 
-	*//*
+
 
 		public static void main(String[] args) {
 
 			OOPsample1_4_331 os3 = new OOPsample1_4_331(); // 1000번지
 
-			//os2.Adder(); //객체명.메소드명 (공식)
+			os2.Adder(); //객체명.메소드명 (공식)
 
 			
 
-			/*
+			
 
 			Scanner sc = new Scanner(System.in);
 
@@ -136,13 +120,13 @@ public class OOPsample1_4_1_331 {
 
 			뺄셈전용
 
-			*/
+			
 
 		
 
-			//os3.Adder(); //반환값 :X 전달인자 : X  덧셈
+			os3.Adder(); //반환값 :X 전달인자 : X  덧셈
 
-			/*
+			
 
 			os3.Subtract(x,y); //반환값 :X 전달인자 : O 뺼셈
 
@@ -152,9 +136,7 @@ public class OOPsample1_4_1_331 {
 
 			 System.out.println("곱셈 : " + sum);
 
-			*/
-
-			/*
+		
 
 			Scanner sc = new Scanner(System.in);
 
@@ -179,21 +161,13 @@ public class OOPsample1_4_1_331 {
 			/* 문제> 2개의 숫자를 입력 받아서 합계를 구하는 프로그램을 작성하세요.
 
 			 * - method()
-
 			 * - 객체를 생성하여 메소드 호출
-
 			 * - X X
-
 			 * - X O
-
 			 * - O X
-
 			 * - O O
-
 			 * - 1.절차지향적 코드
-
 			 * - 2.객체지향적 코드
-
 			 */
 
 			
